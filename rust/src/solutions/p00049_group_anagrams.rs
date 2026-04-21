@@ -15,6 +15,6 @@ impl Solution {
                 .or_insert(vec![s.to_owned()]);
         }
 
-        map.into_iter().map(|(k, v)| v).collect()
+        map.into_values().collect()
     }
 }

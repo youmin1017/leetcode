@@ -2,21 +2,6 @@ use std::collections::HashMap;
 
 struct Solution;
 
-fn main() {
-    //                            0      7   11 14
-    let s = String::from("thequickbrownfoxjumpsoverthelazydogthequickbrownfoxjumpsovert");
-    println!("{:-<10}", "");
-    println!("{:<5} | {}", "idx", "char");
-    println!("{:-<10}", "");
-    for (i, c) in s.chars().enumerate() {
-        println!("{:<5} | {}", i, c);
-    }
-    println!("{:-<10}", "");
-
-    let max = Solution::length_of_longest_substring(s);
-    println!("max = {}", max);
-}
-
 impl Solution {
     pub fn length_of_longest_substring(s: String) -> i32 {
         if s.is_empty() {
