@@ -6,6 +6,7 @@ pub mod p00036_valid_sudoku;
 pub mod p00042_trapping_rain_water;
 pub mod p00049_group_anagrams;
 pub mod p00076_minimum_window_substring;
+pub mod p00104_maxium_depth_of_binary_tree;
 pub mod p00125_valid_palindrome;
 pub mod p00167_two_sum_ii_input_array_is_sorted;
 pub mod p00226_invert_binary_tree;
@@ -17,3 +18,5 @@ pub mod p00347_top_k_frequent_elements;
 pub mod p00567_permutation_in_string;
 pub mod p00739_daily_temperatures;
 pub mod p01431_kids_with_the_greatest_number_of_candies;
+mod structs;
+
